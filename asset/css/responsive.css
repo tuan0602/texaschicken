@@ -1,0 +1,26 @@
+/* meida query */
+/* 1 key word
+    - not : loại trừ
+    - only : chỉ 1 
+    - and : và
+    - or  : hoặc 
+
+    2 mediatypes 
+    print : in
+    screen: màn hình
+    speech:
+    all-default: ứng dụng lên cả 3 đối tượng trên ; 
+
+    3 media features:
+    - min-width
+    - max-width
+    @media not| only mediatype and (mediafeature and|or|not mediafeature)
+    {
+        css code
+    }
+
+    vd @media screen and (max-width: 1024px and min-width: 768px)
+    {
+        css code
+    }
+*/ 
