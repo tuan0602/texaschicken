@@ -35,7 +35,7 @@ body{
 .header-right{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    
 }
 #header .nav
 {
@@ -49,7 +49,7 @@ body{
 }
 #header .nav li{
     list-style: none;
-    margin-left: 30px;
+    margin: 0 15px;
     
 }
 #header .nav > ul> li > a{
@@ -126,8 +126,7 @@ body{
 /* language */
 #header .language,#header .search
 {
-   
-    margin-left: 30px;
+   margin-left: 8px;
 }
 #header .language img{
     margin-right: 15px;
@@ -137,7 +136,7 @@ body{
 /* search */
 #header .search i
 {
-    font-size: 20px;
+    font-size: 2rem;
     color: #f8b02d;
 }
 /* slider */
@@ -169,7 +168,7 @@ body{
     color: #9a3324;
     text-align: center;
     margin-bottom: 4.5rem;
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 400;
     text-decoration: none;
 }
@@ -186,18 +185,18 @@ body{
     border-radius: 1rem;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.09);
     height: 100%;
+    width: calc(100% / 4);
 }
 .box-item .item-img
 {
     margin-bottom: 15px;
-    width: 307px;
-    height: 307px;
     overflow: hidden;
   
 }
 .item-img img
 {
  width: 100%;
+ display: block;
 transition: all .5s;
 }
 .item-img img:hover{
@@ -394,7 +393,11 @@ transition: all .5s;
 }
 .rcol .rwrap .wrap-img
 {
-    margin-bottom: 15px;
+    margin: 15px 0;
+}
+.rcol .rwrap .wrap-img img
+{
+    width: 100%;
 }
 .rcol .rwrap .content
 {
@@ -432,7 +435,7 @@ transition: all .5s;
 }
 .grnews .news-item
 {
-    min-width: 605px;
+    width: 605px;
     border-radius: 10px;
     margin: 0 auto;
     padding: 0 15px;
@@ -510,7 +513,7 @@ transition: all .5s;
 }
 #slogan .item .item-title
 {
-    font-size: 28px;
+    font-size: 2.8rem;
     color: #f8b02d;
     line-height: 35px;
     margin-bottom: 10px;
@@ -518,7 +521,7 @@ transition: all .5s;
 #slogan .item .item-content
 {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 27px;
 }
  
@@ -538,13 +541,13 @@ transition: all .5s;
 
 #footer .box-footer h3 {
     color: #f8b02d;
-    font-size: 32px;
+    font-size: 3.2rem;
     margin-bottom: 5px;
 }
 #footer .botinfor
 {
     margin-bottom: 20px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 #footer li {
     color: #fff;
@@ -563,7 +566,7 @@ transition: all .5s;
 }
 #footer .botmap a
 {
-    font-size: 16px;
+    font-size: 1.6rem;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
@@ -575,7 +578,7 @@ transition: all .5s;
 #footer .botmap a i
 {
     color: #9a3324;
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-right: 10px;
 }
 #footer .botmap a:hover{
@@ -583,7 +586,7 @@ transition: all .5s;
 }
 .infor h3 
 {
-    font-size: 18px !important;
+    font-size: 1.8rem !important;
     padding: 10px 0;
 }
 .infor li a
@@ -601,7 +604,7 @@ transition: all .5s;
 }
 #footer .contact li a
 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #f8b02d;
     margin-right: 20px;
 }
@@ -612,7 +615,7 @@ transition: all .5s;
 #footer h4
 {
     color: #f8b02d;
-    font-size: 20px;
+    font-size: 2rem;
 }
 #footer .botmap .btn
 {
@@ -622,7 +625,7 @@ transition: all .5s;
 {
     width: 100%;
     height: 45px;
-    font-size: 16px;
+    font-size: 1.6rem;
     border-radius: 10px;
     padding: 5px 10px;   
     outline: none;
@@ -636,7 +639,7 @@ transition: all .5s;
     width: 80px;
     height: 45px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1.6rem;
     border-radius: 10px;
     background-color: #9a3324;
     transition: all .5s;

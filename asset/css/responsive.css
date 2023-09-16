@@ -23,4 +23,16 @@
     {
         css code
     }
-*/ 
+
+    breakpoints là những điểm/ vị trí mà bố cục website sẽ thay đổi -thích ứng để tạo nên giao diện responsive
+    
+    smartphone 
+    @media only screen and (max-width: 739px){...} 46.1875em
+
+    ipad
+    @media only screen and (min-width: 740px )  and (max-device-width: 1023px){...}
+    46.25em and 63.9375em
+    desktop and laptop
+    @media only screen and (min-width: 1024px) 64em
+
+    */ 
